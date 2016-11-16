@@ -2,7 +2,7 @@
 
 # project : Soundcloud API
 # creator : https://github.com/nurfitriyanto
-# endpoint : http://0.0.0.0:6969/api/v1_2/search?q=query&genres=metal&limit=10&offset=1
+# endpoint : http://0.0.0.0:6969/api/v1_2/search?q=simple&genres=metal&limit=1&offset=1
 
 import json
 import urllib
@@ -38,7 +38,7 @@ def search():
         #end : request from api soundcloud
         rows = {}
         if results:
-            if len(results) >= 10:
+            if len(results) >= limit:
                 pageNext = int(offset+1)
                 pagePrev = int(pageNext-2)
             else:
