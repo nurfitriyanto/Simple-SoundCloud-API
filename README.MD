@@ -1,5 +1,10 @@
 # Simple SoundCloud API #
 
+## How to generate "YOUR_CLIENT_ID"
+* https://developers.soundcloud.com/
+* http://soundcloud.com/you/apps/new
+* generate YOUR CLIENT ID
+
 ## How to Use
 * git clone https://github.com/nurfitriyanto/Simple-SoundCloud-API.git
 * pip install -r requirements.txt
