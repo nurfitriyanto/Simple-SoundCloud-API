@@ -94,7 +94,7 @@ http://0.0.0.0:6969/api/v1_2/search?q=simple&genres=metal&limit=1&offset=1
 
 http://0.0.0.0:6969/api/v1_2/details?id=27501159
 
-#### Reponse Search
+#### Reponse Details
 ```javascript
 {
   "data": {
@@ -776,7 +776,7 @@ http://0.0.0.0:6969/api/v1_2/details?id=27501159
 
 http://0.0.0.0:6969/api/v1_2/download?id=27501159
 
-#### Reponse Search
+#### Reponse Download
 ```javascript
 {
   "data": {
