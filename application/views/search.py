@@ -49,7 +49,8 @@ def search():
                 'message'   : 'OK'
             }
             rows['attribute'] = {
-                'query'     : query
+                'query'     : query,
+                'genres'    : genres
             }
             rows['pagination'] = {
                 'offset'    : offset,

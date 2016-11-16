@@ -18,7 +18,8 @@ http://0.0.0.0:6969/api/v1_2/search?q=simple&genres=metal&limit=1&offset=1
 ```javascript
 {
   "attribute": {
-    "query": "simple"
+    "query": "simple",
+    "genres": "metal"
   }, 
   "data": [
     {
